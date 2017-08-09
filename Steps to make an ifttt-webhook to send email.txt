@@ -1,4 +1,4 @@
-//Steps to make a an IFTTT-WebHook to send the email if Ubuntu-Disk-Analyzer event is fired
+//Steps to make an IFTTT-WebHook to send the email if Ubuntu-Disk-Analyzer event is fired
 
 Go to My Applets
 Go to Create New Applet
