@@ -4,7 +4,7 @@ An IFTTT-Webhook for receiving email automatically if your Disk Usage exceeds 90
 # Steps to create and use this python code:
 1.  Download the repo using ```git clone https://github.com/KudosAbhay/ifttt-webhook-Disk-Usage-Analyzer.git```
 2.  Create an account on [IFTTT](https://ifttt.com/)
-3.  Read the Documentation file provided within this repo and create a new ifttt-webhook
+3.  Read the [Documentation file provided within this repo](https://github.com/KudosAbhay/ifttt-webhook-Disk-Usage-Analyzer/blob/master/Steps%20to%20make%20an%20ifttt-webhook%20to%20send%20email.txt) and create an IFTTT-Webhook 
 4.  Note Down the IFTTT Trigger Name (Event Name)
 5.  Note Down the IFTTT Key which you get [visit here](https://ifttt.com/maker_webhooks) and Click on Documentation Button
 6.  Insert Trigger Name, IFTTT Key, Your Email ID, Other Email ID to which CC shall be mailed in the Python Code
