@@ -28,10 +28,10 @@ An IFTTT-Webhook for receiving email automatically if your Disk Usage exceeds 90
 
 
 # To keep this running automatically in background on Ubuntu:
-1.  Type ``` crontab -e ``` in console.
-2.  Provide the timing, location of python installed in your Ubuntu and location of this downloaded repo in crontab. Save it.
-3.  Type ``` chmod a+x Disk-Usage-Analyzer.py``` by going to the repo folder. This will make it executable.
-4.  Disk-Usage-Analyzer.py can now send an email automatically at that specified time which you have mentioned in crontab if your Disk Usage exceeds more than 90%.
+1.  Type ``` chmod a+x Disk-Usage-Analyzer.py``` by going to the repo folder. This will make it executable.
+2.  Type ``` crontab -e ``` to open crontab editor.
+3.  To Run this program every minute use ``` */1 * * * * /usr/bin/python3 /folder/location/Disk-Usage-Analyzer.py ``` in crontab
+4.  Done! Disk-Usage-Analyzer.py can now send an email automatically at that specified time which you have mentioned in crontab if your Disk Usage exceeds more than 90%.
 
-<br>
-Eg. To Run this program every minute for checking: ``` */1 * * * * /usr/bin/python3 /folder/location/Disk-Usage-Analyzer.py ```
+
+
