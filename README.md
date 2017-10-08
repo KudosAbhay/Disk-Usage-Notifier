@@ -18,13 +18,12 @@ An IFTTT-Webhook for receiving email automatically if your Disk Usage exceeds 90
   * Now click on <b>“+”</b> sign in the statement <i>“If <b>this</b> then <b>+</b>  that”</i>
   * Type <b>‘Gmail‘</b> and select it
   * Click on <b>‘Send an Email’</b>
-  * Type your email ID
-  * Done. Your ifttt-webhook is ready to be fired!
-  * Now run the Python code and check for output in Activity Logs.
-4.  Note Down the IFTTT Trigger Name (Event Name)
-5.  Note Down the IFTTT Key which you get [visit here](https://ifttt.com/maker_webhooks) and Click on Documentation Button
-6.  Insert Trigger Name, IFTTT Key, Your Email ID, Other Email ID to which CC shall be mailed in the Python Code
-7.  Now run the code and see the output. If your Disk Usage has exceeded 90% in any of the disks, then you will receive an email.
+  * Type your email ID. Type ``` {{Value1}} ``` in <b>To address</b>, ``` {{Value2}} ``` in <b>CC address</b>, write any subject you want and in the Body Section type ``` {{Value3}} ```.
+  * Note Down the IFTTT Trigger Name (i.e Event Name which you have used for this Applet)
+  * Select <b>Finish</b>. Your ifttt-webhook is ready to be fired!
+4.  Note Down the IFTTT Key which you get [visit here](https://ifttt.com/maker_webhooks) and Click on Documentation Button
+5.  Insert Trigger Name, IFTTT Key, Your Email ID, Other Email ID to which CC shall be mailed in the Python Code
+6.  Now run the code and see the output. If your Disk Usage has exceeded 90% in any of the disks, then you will receive an email.
 
 
 
@@ -34,6 +33,4 @@ An IFTTT-Webhook for receiving email automatically if your Disk Usage exceeds 90
 3.  Type ``` chmod a+x Disk-Usage-Analyzer.py``` by going to the repo folder. This will make it executable.
 4.  Disk-Usage-Analyzer.py can now send an email automatically at that specified time which you have mentioned in crontab if your Disk Usage exceeds more than 90%.
 <br>
-
-Eg. To Run this program every minute for checking:
-``` */1 * * * * /usr/bin/python3 /folder/location/Disk-Usage-Analyzer.py ```
+Eg. To Run this program every minute for checking: ``` */1 * * * * /usr/bin/python3 /folder/location/Disk-Usage-Analyzer.py ```
