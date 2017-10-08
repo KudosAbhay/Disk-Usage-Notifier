@@ -10,12 +10,12 @@ An IFTTT-Webhook for receiving email automatically if your Disk Usage exceeds 90
 3. Lets Create an IFTTT Webhook
   * Go to My Applets
   * Click on Create New Applet
-  * Click on the <b>“+”</b> sign in the statement <i>“If <b>+</b> thisthen <b>that</b></i>”
+  * Click on the <b>“+”</b> sign in the statement <i>“If <b>+ this </b> then <b>that</b></i>”
   * Type <b>‘webhook’</b> and select <b>Webhooks</b>
   * Click on ‘<b>Receive a Web Request</b>‘ option
   * Enter Event Name
   * Hit ‘<b>Create Trigger</b>’
-  * Now click on <b>“+”</b> sign in the statement <i>“If <b>this</b> then <b>+</b>  that”</i>
+  * Now click on <b>“+”</b> sign in the statement <i>“If <b>this</b> then <b>+ that </b>”</i>
   * Type <b>‘Gmail‘</b> and select it
   * Click on <b>‘Send an Email’</b>
   * Type your email ID. Type ``` {{Value1}} ``` in <b>To address</b>, ``` {{Value2}} ``` in <b>CC address</b>, write any subject you want and in the Body Section type ``` {{Value3}} ```.
