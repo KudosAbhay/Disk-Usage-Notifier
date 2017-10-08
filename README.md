@@ -2,12 +2,14 @@
 
 An IFTTT-Webhook for receiving emails automatically if your Disk Usage exceeds 90% in Ubuntu
 
+<br>
 **Basic Dependencies**:
 * You must be using Ubuntu or any OS version which is based on Ubuntu v14.04 or above
 * You must have installed python3 or above versions
 * You must have one working email account
 
-**To send an email if your Disk Usage has exceeded the Limit**
+<br>
+**To make this work, follow these steps**
 1.  Download the repo using ```git clone https://github.com/KudosAbhay/ifttt-webhook-Disk-Usage-Analyzer.git```
 2.  Create an account on [IFTTT](https://ifttt.com/)
 3.  Create an IFTTT Webhook
