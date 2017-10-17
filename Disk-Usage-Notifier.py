@@ -28,12 +28,12 @@ for i in range(array_length):
         #Check if this value is > Threshold Value
         if(temp > threshold):
             conn = http.client.HTTPSConnection("maker.ifttt.com")
-            payload = "{\n\t\"value1\" : \""+email+"\",\n\t\"value2\" : \""+ccemail+"\",\n\t\"value3\" : \""+message_to_post+"\"\n}"
+            payload = "{\n\t\"value1\" : \""+email+"\",\n\t\"value2\" : \""+cc_email+"\",\n\t\"value3\" : \""+message_to_post+"\"\n}"
             headers = {
             'content-type': "application/json",
             'cache-control': "no-cache",
             }
-            conn.request("POST", "/trigger/your_IFTTT_Trigger/with/key/your_IFTTT_Key", payload, headers)
+            conn.request("POST", "/trigger/Disk_Usage_Exceeded/with/key/pb6iH8iLldXveE6cp4EgA9eJhAvW6CwGzL4q77mI-iR", payload, headers)
             res = conn.getresponse()
             data = res.read()
             print(data.decode("utf-8"))
