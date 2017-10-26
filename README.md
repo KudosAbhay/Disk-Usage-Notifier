@@ -18,7 +18,7 @@ An IFTTT-Webhook for receiving emails automatically if your Disk Usage exceeds 9
 
 
 # To keep this running automatically in background:
-1.  Type ``` chmod a+x Disk-Usage-Notifier.py``` by going to the repo folder. This will make it executable.
+1.  Type ``` chmod +x Disk-Usage-Notifier.py``` by going to the repo folder. This will make it executable.
 2.  Type ``` crontab -e ``` to open crontab editor.
 3.  To Run this program every minute use ``` */1 * * * * /usr/bin/python3 /folder/location/Disk-Usage-Notifier.py ``` in crontab
 4.  Done! 
